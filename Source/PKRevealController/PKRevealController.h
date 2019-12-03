@@ -310,4 +310,8 @@ FOUNDATION_EXTERN NSString * const PKRevealControllerRecognizesResetTapOnFrontVi
                         rightViewController:(UIViewController *)rightViewController
                                     options:(NSDictionary *)options __attribute__((deprecated("Use +revealControllerWithFrontViewController:rightViewController: instead. Set options using the options property.")));
 
+- (CGFloat)leftViewMinWidth;
+
+- (CGFloat)leftViewMaxWidth;
+
 @end

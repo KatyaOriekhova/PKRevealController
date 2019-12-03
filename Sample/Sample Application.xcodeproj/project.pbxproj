@@ -20,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4AD28C9123968ACC006F2883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F93CB8921816D11B0036850C /* PKRevealController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B31FE12D1AE2B7C60050288C;
+			remoteInfo = "PKRevealController Tests";
+		};
 		F93CB8961816D11B0036850C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F93CB8921816D11B0036850C /* PKRevealController.xcodeproj */;
@@ -41,7 +48,6 @@
 		F92FE59D18152D8E00668004 /* SMPLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMPLAppDelegate.h; sourceTree = "<group>"; };
 		F92FE59E18152D8E00668004 /* SMPLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMPLAppDelegate.m; sourceTree = "<group>"; };
 		F92FE5A018152D8E00668004 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F92FE5A718152D8F00668004 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F92FE5BD18152DB300668004 /* libPKRevealController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPKRevealController.a; path = "../../Source/build/Debug-iphoneos/libPKRevealController.a"; sourceTree = "<group>"; };
 		F93CB8921816D11B0036850C /* PKRevealController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PKRevealController.xcodeproj; path = ../Source/PKRevealController.xcodeproj; sourceTree = "<group>"; };
 		F9712B0718153BCC003E94C3 /* PKRevealController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PKRevealController.h; path = ../Headers/PKRevealController.h; sourceTree = "<group>"; };
@@ -88,7 +94,6 @@
 				F92FE58E18152D8E00668004 /* Foundation.framework */,
 				F92FE59018152D8E00668004 /* CoreGraphics.framework */,
 				F92FE59218152D8E00668004 /* UIKit.framework */,
-				F92FE5A718152D8F00668004 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				F93CB8971816D11B0036850C /* libPKRevealController.a */,
+				4AD28C9223968ACC006F2883 /* PKRevealController Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,7 +183,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
+				Base,
 			);
 			mainGroup = F92FE58218152D8E00668004;
 			productRefGroup = F92FE58C18152D8E00668004 /* Products */;
@@ -196,6 +204,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		4AD28C9223968ACC006F2883 /* PKRevealController Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "PKRevealController Tests.xctest";
+			remoteRef = 4AD28C9123968ACC006F2883 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		F93CB8971816D11B0036850C /* libPKRevealController.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
